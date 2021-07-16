@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Humantiv2</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -17,9 +19,21 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Humantiv would like to access your health data to help you keep track of your progress</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Humantiv would like to access your health data to help you keep track of your progress</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The app would like to gather your location to provide data about the environment around you</string>
+	<key>NSLocationUsageDescription</key>
+	<string>The app would like to gather your location to provide data about the environment around you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app would like to gather your location to provide data about the environment around you</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

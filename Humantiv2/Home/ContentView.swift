@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    //@StateObject var hkm = HealthKitManager()
+    //@StateObject var db = DataBroadcaster()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HomeView()
     }
 }
 

@@ -3,16 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C92492802684CBF400C01F79 /* KRefreshScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C924927F2684CBF400C01F79 /* KRefreshScrollView.swift */; };
+		C92492822692137900C01F79 /* HealthTypesSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92492812692137900C01F79 /* HealthTypesSelectionView.swift */; };
+		C92B6829269CAA3C0087CE00 /* SleepHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B6828269CAA3C0087CE00 /* SleepHeaderView.swift */; };
+		C92B682D269CD0630087CE00 /* MoodSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B682C269CD0630087CE00 /* MoodSelectionView.swift */; };
+		C92B682F269CD06F0087CE00 /* SwiftyMoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B682E269CD06F0087CE00 /* SwiftyMoji.swift */; };
+		C92B6831269CD0760087CE00 /* Eyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B6830269CD0760087CE00 /* Eyes.swift */; };
+		C92B6833269CD07D0087CE00 /* Mouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B6832269CD07D0087CE00 /* Mouth.swift */; };
+		C92B6836269CD9A70087CE00 /* MoodHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92B6835269CD9A70087CE00 /* MoodHeaderView.swift */; };
 		C9318B852683DC560031B404 /* Humantiv2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318B842683DC560031B404 /* Humantiv2App.swift */; };
 		C9318B872683DC560031B404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318B862683DC560031B404 /* ContentView.swift */; };
 		C9318B892683DC570031B404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9318B882683DC570031B404 /* Assets.xcassets */; };
 		C9318B8C2683DC570031B404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9318B8B2683DC570031B404 /* Preview Assets.xcassets */; };
 		C9318B972683DC570031B404 /* Humantiv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318B962683DC570031B404 /* Humantiv2Tests.swift */; };
 		C9318BA22683DC570031B404 /* Humantiv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BA12683DC570031B404 /* Humantiv2UITests.swift */; };
+		C9318BB82683DC7C0031B404 /* HGFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BAF2683DC7B0031B404 /* HGFooterView.swift */; };
+		C9318BB92683DC7C0031B404 /* MeditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB02683DC7B0031B404 /* MeditView.swift */; };
+		C9318BBA2683DC7C0031B404 /* HGHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB12683DC7B0031B404 /* HGHeaderView.swift */; };
+		C9318BBB2683DC7C0031B404 /* RadarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB22683DC7B0031B404 /* RadarChartGrid.swift */; };
+		C9318BBC2683DC7C0031B404 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB32683DC7B0031B404 /* HomeView.swift */; };
+		C9318BBD2683DC7C0031B404 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB42683DC7C0031B404 /* StatsView.swift */; };
+		C9318BBE2683DC7C0031B404 /* RadarChartPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB52683DC7C0031B404 /* RadarChartPath.swift */; };
+		C9318BBF2683DC7C0031B404 /* MyStatsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB62683DC7C0031B404 /* MyStatsHeaderView.swift */; };
+		C9318BC02683DC7C0031B404 /* MDXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BB72683DC7C0031B404 /* MDXView.swift */; };
+		C9318BC32683DC930031B404 /* DataBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BC12683DC930031B404 /* DataBroadcaster.swift */; };
+		C9318BC42683DC930031B404 /* HHData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9318BC22683DC930031B404 /* HHData.swift */; };
+		C9318BC72683DCE50031B404 /* LightChart in Frameworks */ = {isa = PBXBuildFile; productRef = C9318BC62683DCE50031B404 /* LightChart */; };
+		C956744726995CEB005ECF52 /* IceCream in Frameworks */ = {isa = PBXBuildFile; productRef = C956744626995CEB005ECF52 /* IceCream */; };
+		C956748F269A0F82005ECF52 /* MyHealthMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956748E269A0F82005ECF52 /* MyHealthMeasure.swift */; };
+		C9567491269A7C87005ECF52 /* BreathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9567490269A7C87005ECF52 /* BreathAnimation.swift */; };
+		C9567493269A83A8005ECF52 /* PollenSenseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9567492269A83A8005ECF52 /* PollenSenseStruct.swift */; };
+		C9567495269A8405005ECF52 /* CoreLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9567494269A8405005ECF52 /* CoreLocationManager.swift */; };
+		C9567497269A84C3005ECF52 /* PollenCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9567496269A84C3005ECF52 /* PollenCastView.swift */; };
+		C9567499269A84F8005ECF52 /* EnvironmentMeasuresManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9567498269A84F8005ECF52 /* EnvironmentMeasuresManager.swift */; };
+		C956749B269A859D005ECF52 /* WeatherbitStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956749A269A859D005ECF52 /* WeatherbitStructs.swift */; };
+		C956749D269A85A5005ECF52 /* WeatherGovStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956749C269A85A5005ECF52 /* WeatherGovStructs.swift */; };
+		C956749F269A8941005ECF52 /* EnvironmentalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956749E269A8941005ECF52 /* EnvironmentalHeaderView.swift */; };
+		C95674A5269C9819005ECF52 /* SleepAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95674A4269C9819005ECF52 /* SleepAnalysisView.swift */; };
+		C95674A8269C9922005ECF52 /* ActivityGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95674A7269C9922005ECF52 /* ActivityGraph.swift */; };
+		C95674AA269C9929005ECF52 /* ActivityHistoryText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95674A9269C9929005ECF52 /* ActivityHistoryText.swift */; };
+		C95674AC269C993A005ECF52 /* ActivityHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95674AB269C993A005ECF52 /* ActivityHistoryView.swift */; };
+		C95674AE269C99A0005ECF52 /* ActivityLogStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95674AD269C99A0005ECF52 /* ActivityLogStructs.swift */; };
+		C9818B822683E53500ADFB0C /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9818B802683E53500ADFB0C /* HealthKitManager.swift */; };
+		C9818B832683E53500ADFB0C /* HealthKitCommons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9818B812683E53500ADFB0C /* HealthKitCommons.swift */; };
+		C9818B852683FBC400ADFB0C /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9818B842683FBC400ADFB0C /* FirestoreManager.swift */; };
+		C9818B872683FCD600ADFB0C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9818B862683FCD600ADFB0C /* Helpers.swift */; };
+		C9818B892684141800ADFB0C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9818B882684141800ADFB0C /* HomeViewModel.swift */; };
+		C9818B8D268421E200ADFB0C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9818B8C268421E200ADFB0C /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +74,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C924927F2684CBF400C01F79 /* KRefreshScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRefreshScrollView.swift; sourceTree = "<group>"; };
+		C92492812692137900C01F79 /* HealthTypesSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTypesSelectionView.swift; sourceTree = "<group>"; };
+		C92B6828269CAA3C0087CE00 /* SleepHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepHeaderView.swift; sourceTree = "<group>"; };
+		C92B682C269CD0630087CE00 /* MoodSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodSelectionView.swift; sourceTree = "<group>"; };
+		C92B682E269CD06F0087CE00 /* SwiftyMoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyMoji.swift; sourceTree = "<group>"; };
+		C92B6830269CD0760087CE00 /* Eyes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eyes.swift; sourceTree = "<group>"; };
+		C92B6832269CD07D0087CE00 /* Mouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouth.swift; sourceTree = "<group>"; };
+		C92B6835269CD9A70087CE00 /* MoodHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodHeaderView.swift; sourceTree = "<group>"; };
 		C9318B812683DC560031B404 /* Humantiv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Humantiv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9318B842683DC560031B404 /* Humantiv2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humantiv2App.swift; sourceTree = "<group>"; };
 		C9318B862683DC560031B404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +94,38 @@
 		C9318B9D2683DC570031B404 /* Humantiv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Humantiv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9318BA12683DC570031B404 /* Humantiv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humantiv2UITests.swift; sourceTree = "<group>"; };
 		C9318BA32683DC570031B404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9318BAF2683DC7B0031B404 /* HGFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGFooterView.swift; sourceTree = "<group>"; };
+		C9318BB02683DC7B0031B404 /* MeditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditView.swift; sourceTree = "<group>"; };
+		C9318BB12683DC7B0031B404 /* HGHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HGHeaderView.swift; sourceTree = "<group>"; };
+		C9318BB22683DC7B0031B404 /* RadarChartGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartGrid.swift; sourceTree = "<group>"; };
+		C9318BB32683DC7B0031B404 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C9318BB42683DC7C0031B404 /* StatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		C9318BB52683DC7C0031B404 /* RadarChartPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarChartPath.swift; sourceTree = "<group>"; };
+		C9318BB62683DC7C0031B404 /* MyStatsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStatsHeaderView.swift; sourceTree = "<group>"; };
+		C9318BB72683DC7C0031B404 /* MDXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDXView.swift; sourceTree = "<group>"; };
+		C9318BC12683DC930031B404 /* DataBroadcaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBroadcaster.swift; sourceTree = "<group>"; };
+		C9318BC22683DC930031B404 /* HHData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHData.swift; sourceTree = "<group>"; };
+		C956748E269A0F82005ECF52 /* MyHealthMeasure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHealthMeasure.swift; sourceTree = "<group>"; };
+		C9567490269A7C87005ECF52 /* BreathAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathAnimation.swift; sourceTree = "<group>"; };
+		C9567492269A83A8005ECF52 /* PollenSenseStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollenSenseStruct.swift; sourceTree = "<group>"; };
+		C9567494269A8405005ECF52 /* CoreLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationManager.swift; sourceTree = "<group>"; };
+		C9567496269A84C3005ECF52 /* PollenCastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollenCastView.swift; sourceTree = "<group>"; };
+		C9567498269A84F8005ECF52 /* EnvironmentMeasuresManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentMeasuresManager.swift; sourceTree = "<group>"; };
+		C956749A269A859D005ECF52 /* WeatherbitStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherbitStructs.swift; sourceTree = "<group>"; };
+		C956749C269A85A5005ECF52 /* WeatherGovStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherGovStructs.swift; sourceTree = "<group>"; };
+		C956749E269A8941005ECF52 /* EnvironmentalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentalHeaderView.swift; sourceTree = "<group>"; };
+		C95674A4269C9819005ECF52 /* SleepAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAnalysisView.swift; sourceTree = "<group>"; };
+		C95674A7269C9922005ECF52 /* ActivityGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityGraph.swift; sourceTree = "<group>"; };
+		C95674A9269C9929005ECF52 /* ActivityHistoryText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityHistoryText.swift; sourceTree = "<group>"; };
+		C95674AB269C993A005ECF52 /* ActivityHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityHistoryView.swift; sourceTree = "<group>"; };
+		C95674AD269C99A0005ECF52 /* ActivityLogStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLogStructs.swift; sourceTree = "<group>"; };
+		C9818B802683E53500ADFB0C /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C9818B812683E53500ADFB0C /* HealthKitCommons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitCommons.swift; sourceTree = "<group>"; };
+		C9818B842683FBC400ADFB0C /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		C9818B862683FCD600ADFB0C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		C9818B882684141800ADFB0C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C9818B8A268421E200ADFB0C /* Humantiv2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Humantiv2.entitlements; sourceTree = "<group>"; };
+		C9818B8C268421E200ADFB0C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +133,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C956744726995CEB005ECF52 /* IceCream in Frameworks */,
+				C9318BC72683DCE50031B404 /* LightChart in Frameworks */,
+				C9818B8D268421E200ADFB0C /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +156,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92B6834269CD08D0087CE00 /* Mood Selection */ = {
+			isa = PBXGroup;
+			children = (
+				C92B682C269CD0630087CE00 /* MoodSelectionView.swift */,
+				C92B682E269CD06F0087CE00 /* SwiftyMoji.swift */,
+				C92B6830269CD0760087CE00 /* Eyes.swift */,
+				C92B6832269CD07D0087CE00 /* Mouth.swift */,
+			);
+			path = "Mood Selection";
+			sourceTree = "<group>";
+		};
 		C9318B782683DC560031B404 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +174,7 @@
 				C9318B952683DC570031B404 /* Humantiv2Tests */,
 				C9318BA02683DC570031B404 /* Humantiv2UITests */,
 				C9318B822683DC560031B404 /* Products */,
+				C9818B8B268421E200ADFB0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +191,18 @@
 		C9318B832683DC560031B404 /* Humantiv2 */ = {
 			isa = PBXGroup;
 			children = (
+				C9818B8A268421E200ADFB0C /* Humantiv2.entitlements */,
 				C9318B842683DC560031B404 /* Humantiv2App.swift */,
-				C9318B862683DC560031B404 /* ContentView.swift */,
+				C95674A3269C9086005ECF52 /* Home */,
+				C92492812692137900C01F79 /* HealthTypesSelectionView.swift */,
+				C9567490269A7C87005ECF52 /* BreathAnimation.swift */,
+				C92B6834269CD08D0087CE00 /* Mood Selection */,
+				C95674A6269C98C9005ECF52 /* SleepAnalysis */,
+				C924927F2684CBF400C01F79 /* KRefreshScrollView.swift */,
+				C95674A2269C878C005ECF52 /* Structs */,
+				C95674A0269C870B005ECF52 /* RealmModels */,
+				C95674A1269C875A005ECF52 /* Managers-ViewModels */,
+				C9818B862683FCD600ADFB0C /* Helpers.swift */,
 				C9318B882683DC570031B404 /* Assets.xcassets */,
 				C9318B8D2683DC570031B404 /* Info.plist */,
 				C9318B8A2683DC570031B404 /* Preview Content */,
@@ -130,6 +236,80 @@
 			path = Humantiv2UITests;
 			sourceTree = "<group>";
 		};
+		C95674A0269C870B005ECF52 /* RealmModels */ = {
+			isa = PBXGroup;
+			children = (
+				C956748E269A0F82005ECF52 /* MyHealthMeasure.swift */,
+			);
+			path = RealmModels;
+			sourceTree = "<group>";
+		};
+		C95674A1269C875A005ECF52 /* Managers-ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C9318BC12683DC930031B404 /* DataBroadcaster.swift */,
+				C9567494269A8405005ECF52 /* CoreLocationManager.swift */,
+				C9567498269A84F8005ECF52 /* EnvironmentMeasuresManager.swift */,
+				C9818B812683E53500ADFB0C /* HealthKitCommons.swift */,
+				C9818B802683E53500ADFB0C /* HealthKitManager.swift */,
+				C9818B842683FBC400ADFB0C /* FirestoreManager.swift */,
+			);
+			path = "Managers-ViewModels";
+			sourceTree = "<group>";
+		};
+		C95674A2269C878C005ECF52 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				C9567492269A83A8005ECF52 /* PollenSenseStruct.swift */,
+				C956749A269A859D005ECF52 /* WeatherbitStructs.swift */,
+				C956749C269A85A5005ECF52 /* WeatherGovStructs.swift */,
+				C9318BC22683DC930031B404 /* HHData.swift */,
+				C95674AD269C99A0005ECF52 /* ActivityLogStructs.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		C95674A3269C9086005ECF52 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9318B862683DC560031B404 /* ContentView.swift */,
+				C9318BB32683DC7B0031B404 /* HomeView.swift */,
+				C9318BB02683DC7B0031B404 /* MeditView.swift */,
+				C9318BB12683DC7B0031B404 /* HGHeaderView.swift */,
+				C9318BAF2683DC7B0031B404 /* HGFooterView.swift */,
+				C9318BB62683DC7C0031B404 /* MyStatsHeaderView.swift */,
+				C9318BB42683DC7C0031B404 /* StatsView.swift */,
+				C92B6828269CAA3C0087CE00 /* SleepHeaderView.swift */,
+				C92B6835269CD9A70087CE00 /* MoodHeaderView.swift */,
+				C956749E269A8941005ECF52 /* EnvironmentalHeaderView.swift */,
+				C9567496269A84C3005ECF52 /* PollenCastView.swift */,
+				C9318BB72683DC7C0031B404 /* MDXView.swift */,
+				C9318BB22683DC7B0031B404 /* RadarChartGrid.swift */,
+				C9318BB52683DC7C0031B404 /* RadarChartPath.swift */,
+				C9818B882684141800ADFB0C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C95674A6269C98C9005ECF52 /* SleepAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				C95674A4269C9819005ECF52 /* SleepAnalysisView.swift */,
+				C95674A7269C9922005ECF52 /* ActivityGraph.swift */,
+				C95674A9269C9929005ECF52 /* ActivityHistoryText.swift */,
+				C95674AB269C993A005ECF52 /* ActivityHistoryView.swift */,
+			);
+			path = SleepAnalysis;
+			sourceTree = "<group>";
+		};
+		C9818B8B268421E200ADFB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9818B8C268421E200ADFB0C /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +326,10 @@
 			dependencies = (
 			);
 			name = Humantiv2;
+			packageProductDependencies = (
+				C9318BC62683DCE50031B404 /* LightChart */,
+				C956744626995CEB005ECF52 /* IceCream */,
+			);
 			productName = Humantiv2;
 			productReference = C9318B812683DC560031B404 /* Humantiv2.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +401,10 @@
 				Base,
 			);
 			mainGroup = C9318B782683DC560031B404;
+			packageReferences = (
+				C9318BC52683DCE50031B404 /* XCRemoteSwiftPackageReference "LightChart" */,
+				C956744526995CEB005ECF52 /* XCRemoteSwiftPackageReference "IceCream" */,
+			);
 			productRefGroup = C9318B822683DC560031B404 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +447,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9318BC32683DC930031B404 /* DataBroadcaster.swift in Sources */,
+				C92492822692137900C01F79 /* HealthTypesSelectionView.swift in Sources */,
+				C9818B892684141800ADFB0C /* HomeViewModel.swift in Sources */,
+				C9318BB92683DC7C0031B404 /* MeditView.swift in Sources */,
+				C956749F269A8941005ECF52 /* EnvironmentalHeaderView.swift in Sources */,
+				C9567499269A84F8005ECF52 /* EnvironmentMeasuresManager.swift in Sources */,
+				C95674AE269C99A0005ECF52 /* ActivityLogStructs.swift in Sources */,
+				C92B6833269CD07D0087CE00 /* Mouth.swift in Sources */,
+				C92B682F269CD06F0087CE00 /* SwiftyMoji.swift in Sources */,
+				C92B6829269CAA3C0087CE00 /* SleepHeaderView.swift in Sources */,
+				C9318BBC2683DC7C0031B404 /* HomeView.swift in Sources */,
 				C9318B872683DC560031B404 /* ContentView.swift in Sources */,
+				C9318BBA2683DC7C0031B404 /* HGHeaderView.swift in Sources */,
+				C9567493269A83A8005ECF52 /* PollenSenseStruct.swift in Sources */,
+				C9318BC42683DC930031B404 /* HHData.swift in Sources */,
+				C9318BBE2683DC7C0031B404 /* RadarChartPath.swift in Sources */,
+				C9567497269A84C3005ECF52 /* PollenCastView.swift in Sources */,
+				C9318BBD2683DC7C0031B404 /* StatsView.swift in Sources */,
+				C956748F269A0F82005ECF52 /* MyHealthMeasure.swift in Sources */,
+				C956749D269A85A5005ECF52 /* WeatherGovStructs.swift in Sources */,
+				C92492802684CBF400C01F79 /* KRefreshScrollView.swift in Sources */,
 				C9318B852683DC560031B404 /* Humantiv2App.swift in Sources */,
+				C9318BBF2683DC7C0031B404 /* MyStatsHeaderView.swift in Sources */,
+				C9567491269A7C87005ECF52 /* BreathAnimation.swift in Sources */,
+				C95674A5269C9819005ECF52 /* SleepAnalysisView.swift in Sources */,
+				C95674A8269C9922005ECF52 /* ActivityGraph.swift in Sources */,
+				C92B6836269CD9A70087CE00 /* MoodHeaderView.swift in Sources */,
+				C95674AC269C993A005ECF52 /* ActivityHistoryView.swift in Sources */,
+				C9818B872683FCD600ADFB0C /* Helpers.swift in Sources */,
+				C9567495269A8405005ECF52 /* CoreLocationManager.swift in Sources */,
+				C95674AA269C9929005ECF52 /* ActivityHistoryText.swift in Sources */,
+				C9318BC02683DC7C0031B404 /* MDXView.swift in Sources */,
+				C9818B832683E53500ADFB0C /* HealthKitCommons.swift in Sources */,
+				C9318BB82683DC7C0031B404 /* HGFooterView.swift in Sources */,
+				C9818B822683E53500ADFB0C /* HealthKitManager.swift in Sources */,
+				C92B6831269CD0760087CE00 /* Eyes.swift in Sources */,
+				C956749B269A859D005ECF52 /* WeatherbitStructs.swift in Sources */,
+				C9318BBB2683DC7C0031B404 /* RadarChartGrid.swift in Sources */,
+				C92B682D269CD0630087CE00 /* MoodSelectionView.swift in Sources */,
+				C9818B852683FBC400ADFB0C /* FirestoreManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +643,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Humantiv2/Humantiv2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Humantiv2/Preview Content\"";
 				DEVELOPMENT_TEAM = CS8HM3VSCJ;
 				ENABLE_PREVIEWS = YES;
@@ -439,7 +667,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Humantiv2/Humantiv2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Humantiv2/Preview Content\"";
 				DEVELOPMENT_TEAM = CS8HM3VSCJ;
 				ENABLE_PREVIEWS = YES;
@@ -580,6 +810,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9318BC52683DCE50031B404 /* XCRemoteSwiftPackageReference "LightChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pichukov/LightChart";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		C956744526995CEB005ECF52 /* XCRemoteSwiftPackageReference "IceCream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/caiyue1993/IceCream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9318BC62683DCE50031B404 /* LightChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9318BC52683DCE50031B404 /* XCRemoteSwiftPackageReference "LightChart" */;
+			productName = LightChart;
+		};
+		C956744626995CEB005ECF52 /* IceCream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C956744526995CEB005ECF52 /* XCRemoteSwiftPackageReference "IceCream" */;
+			productName = IceCream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9318B792683DC560031B404 /* Project object */;
 }

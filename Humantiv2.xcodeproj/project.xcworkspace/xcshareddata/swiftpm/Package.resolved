@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IceCream",
+        "repositoryURL": "https://github.com/caiyue1993/IceCream.git",
+        "state": {
+          "branch": null,
+          "revision": "634f8a29be7bae2d8bf719aa4ede5ca2052b9d28",
+          "version": "2.0.2"
+        }
+      },
+      {
+        "package": "LightChart",
+        "repositoryURL": "https://github.com/pichukov/LightChart",
+        "state": {
+          "branch": null,
+          "revision": "c5e097a63611f4b80686afcd0643a51131ce8378",
+          "version": "1.0.2"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
+        "state": {
+          "branch": null,
+          "revision": "fa43b8e2909334c79f233ce472332c136ca108da",
+          "version": "4.4.1"
+        }
+      },
+      {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "35662ff940e340bf630ad1d1d88acfc7af18bee6",
+          "version": "5.23.8"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
